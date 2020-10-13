@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+<script src="jquery-3.2.1.js">    </script>
+</head>
+
+<body>
+
+
+
+
+    <h1 class="heading">
+        QUIZZ APPLICATION
+    </h1>
+    <div class="form">
+        <form method="post">
+
+            <p id="log">
+                <i class="fa fa-lock" aria-hidden="true"></i> LogIn
+            </p>
+            <p class="prgrf">
+                Please <span class="plog">Login</span> OR <span class="preg">Register</span>
+            </p>
+            <div class="box">
+                <p>
+                    <span class="user"><i id="user"class="fa fa-user" aria-hidden="true"></i></span>
+                    <input class="un" type="text" name="username" placeholder="UserName" required="required" />
+                </p>
+
+                <p>
+                    <span class="key"><i id="key"class="fa fa-key" aria-hidden="true"></i></span>
+                    <input class="pswd" type="password" name="password" placeholder="Password" required="required" />
+                </p>
+
+           
+            <p id="login">
+                <a id ="but" class="btn btn-primary btn-lg" href="#" role="button" onClick="alert('PLEASE SIGNUP');">LOG IN</a>
+            </p>
+            <p id="reg">
+                Don't have an account? <span class="regis"><a href="signup.html"> Register now</a></span>
+            </p>
+            </div>
+        </form>
+
+        <script src="quiz.js"> </script>
+
+
+
+
+</body>
+
+</html>

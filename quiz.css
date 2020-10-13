@@ -1,0 +1,153 @@
+
+h1.heading{
+text-align: center;
+height: 100px;
+margin-top: 0px;
+background-color: #2E2B2B;
+color:#ffffff;
+padding: 35px;
+opacity: 0.7;
+font-size: 4em;
+animation-name: example;
+    animation-duration: 2s;
+}
+    @keyframes example {
+    from {font-size:2em;  color: black ;opacity:0; }
+    to {font-size:4em; color:white;opacity:0.7; }
+    }    
+
+
+
+
+
+#un,#pswd{
+    text-align: center;
+}
+
+#login{
+    text-align: right;
+ 
+    padding-right: 55px;
+    padding-top:3px; 
+}
+
+input{
+width: 300px;
+height: 40px; 
+padding-left: 10px;
+border-radius:10px; 
+background-color:#f7f7f7;
+}
+
+
+.form{
+background-color:#2E2B2B;
+opacity: 0.8;
+width: 35%;
+height: 55%;
+text-align: center;
+margin-left: 33%;
+margin-top: 10%;
+font-size: 14px;
+animation-name: form;
+    animation-duration: 2s;
+}
+    @keyframes form {
+    from { opacity:0; }
+    to {opacity:0.8; }
+    }
+
+
+
+#log{
+    font-size:50px;
+    margin-bottom: 30px;
+    text-align: center; 
+    color: #ffffff;
+    background-color: #000000;
+}
+
+
+.box{
+    text-align: left;
+    }
+
+body{
+    background-image: url("images/a.jpg");
+    background-repeat: no-repeat;
+    
+    /*width: 100%;
+    height: auto;
+    background-size:100% 100%; 
+
+    */
+    background-size: cover;
+    background-position: center;
+}
+
+span.key,span.user{
+    text-align: left;
+    color: black;
+    font-size: 2.5em;
+    /*margin-right:2px; */
+    float: left;
+    margin-left: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+
+.prgrf{
+    color: white;
+    font-size: 18px;
+}
+
+
+#reg{
+    text-align: center;
+    color: #ffffff;
+}
+
+
+span.regis{
+    color: #1B62DB;
+}
+
+
+.regis:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.prgrf{
+    color: #C3C5CA;
+}
+
+
+.preg , .plog{
+    color: white;
+}
+
+
+span.user{
+    height:35px;
+    width: 1px;
+}
+
+
+span.key{
+    height: 35px;
+    width: 1px;
+}
+
+input:foucus{
+    border-radius: 30px;
+}
+.gen{
+font-size: 2.5em;
+
+
+}

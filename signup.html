@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="jquery-3.2.1.js">
+
+    </script>
+</head>
+
+<body>
+     <h1 class="heading">
+        QUIZZ APPLICATION
+    </h1>
+    <div class="form">
+        <form method="post" action="questions.html">
+            <p class="Acc">
+                <i class="fa fa-lock" aria-hidden="true"></i> Create An Account
+            </p>
+            
+            <div class="box">
+                <form action="">
+                <p class="prgrf">
+                Please <span class="plog">Login</span> OR <span class="preg">Register</span>
+            </p>
+                <p>
+                  <span class="email" > <i class="fa fa-envelope" aria-hidden="true"></i></span>
+
+                    <input type="email" name="email" placeholder=" email@example.com" required>
+                </p>
+                <p> 
+                   <span class="user"><i id="user"class="fa fa-user" aria-hidden="true"></i></span>
+                    <input type="text" name="username" placeholder="Username " required>
+                </p>
+                <p>
+                     <span class="key"><i id="key"class="fa fa-key" aria-hidden="true"></i></span>
+                    <input type="password" name="password" placeholder="PASSWORD " required>
+               
+                <p id="login">
+                <button class="btn btn-primary">Sign Up</button>
+            </p>
+            </form>
+            <p id="reg">
+                Already have an Account? <span class="regis"><a href="index.html"> Login</a></span>
+            </p>
+            </div>
+        </form>
+
+    </div>
+
+
+    <script src="quiz.js">
+
+    </script>
+<script src="signup.js"></script>
+</body>
+
+</html>

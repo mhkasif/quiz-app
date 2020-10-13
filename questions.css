@@ -1,0 +1,245 @@
+
+h1.heading{
+text-align: center;
+height: 100px;
+margin-top: 0px;
+background-color: #2E2B2B;
+color:#ffffff;
+padding: 35px;
+opacity: 0.7;
+font-size: 4em;
+animation-name: example;
+    animation-duration: 2s;
+}
+    @keyframes example {
+    from {font-size:2em;  color: black ;opacity:0; }
+    to {font-size:4em; color:white;opacity:0.7; }
+    }    
+
+h1.qheading {
+  text-align: left;
+  height: 100px;
+  margin-top: 0px;
+  background-color: #2e2b2b;
+  color: #ffffff;
+  padding: 35px;
+  opacity: 0.7;
+
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  from {
+    font-size: 1em;
+    color: black;
+    opacity: 0;
+  }
+  to {
+    font-size: 2.5em;
+    color: white;
+    opacity: 0.7;
+  }
+}
+
+h1.qheading {
+  font-size: 4em;
+}
+
+body{
+    background-image: url("images/a.jpg");
+    background-repeat: no-repeat;
+    
+    /*width: 100%;
+    height: auto;
+    background-size:100% 100%; 
+
+    */
+    background-size: cover;
+    background-position: center;
+}
+Uname {
+  animation-name: example;
+  animation-duration: 2s;
+}
+@keyframes example {
+  from {
+    font-size: 2em;
+    color: black;
+    opacity: 0;
+  }
+  to {
+    font-size: 4em;
+    color: white;
+    opacity: 0.7;
+  }
+}
+
+#logout {
+  float: right;
+}
+.note {
+  text-align: center;
+  background-color: #2e2b2b;
+  opacity: 0.6;
+  width: 30%;
+  height: 48%;
+
+  margin-left: 500px;
+  margin-top: 100px;
+  font-size: 100%;
+  animation-name: note;
+  animation-duration: 2s;
+}
+@keyframes note {
+  from {
+    font-size: 50%;
+    opacity: 0;
+  }
+  to {
+    font-size: 100%;
+    opacity: 0.6;
+  }
+}
+
+.headd h2 {
+  color: #ffffff;
+  font-size: 2.1em;
+  text-transform: uppercase;
+  background-color: #000000;
+}
+.headd h3 {
+  font-size: 1.5em;
+  color: red;
+  text-align: left;
+  margin-left: 4%;
+}
+.ul,
+p {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+}
+#go {
+  float: right;
+  background-color: green;
+  opacity: 1;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+.note p {
+  padding-left: 30px;
+  color: greenyellow;
+}
+.clock {
+  float: right;
+  margin-right: 10%;
+  margin-top: 10px;
+  border: 3px solid #32812e;
+  background-color: #0dca04;
+  border-radius: 15px;
+  opacity: 0.8;
+
+  font-size: 2em;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  
+ 
+  animation-name: clock;
+  animation-duration: 2s;
+}
+@keyframes clock {
+ from {
+
+    color: black;
+    opacity: 0;
+  }
+  to {
+
+    color: white;
+    opacity: 0.8;
+  }
+}
+.ques{
+    display: none;
+    font-size:1.7em;
+    color: white;
+    text-align: left;
+    opacity: 0.8;
+    background-color: brown;
+    margin-top: 10%; 
+    width: 50%;
+
+}
+#next{
+  background-color: #0dca04;
+  border-radius:15px;
+
+opacity: 0.8 ;
+display: none;
+text-align: center;
+
+left: 50%;
+
+float: left;
+}
+.choices{
+  font-size: 19px;
+color: white;
+ /*opacity: 0.8;*/
+  padding-top: 2%;
+
+}
+ol li{
+  padding-top: 5px;
+  
+}
+ol {
+  width: 30%;
+  background-color:black;
+  opacity: 0.7; 
+}
+
+
+                    td{
+                        width: 20%;
+                        text-align: center;
+                        font-size: 24px;
+                        color: white;
+                        
+                    }
+                    .bod{
+                         background-color: black;
+                        opacity: 0.8;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        width:35%;
+                        text-align: center;
+
+                        margin:50px auto auto 30%;
+                        animation-name: example;
+    animation-duration: 2s;
+}
+    @keyframes example {
+    from {  color: black ;opacity:0; }
+    to {olor:white;opacity:0.8; }
+    }  
+                    
+                    .hres{
+                        background-color: brown;
+                        opacity: 0.7;
+
+                        border-radius: 10px;
+                        margin-top:0px; 
+                        text-align: center;
+                        left: 50%;
+                        right: 50%;
+color:white; 
+
+
+                        bottom: 40%;
+                        font-size: 1.5em
+                    }
+                    .clos{
+                      display: none;
+                    }
+                    

@@ -1,0 +1,110 @@
+h1.heading{
+text-align: center;
+height: 100px;
+margin-top: 0px;
+background-color: #2E2B2B;
+color:#ffffff;
+padding: 35px;
+opacity: 0.7;
+font-size: 4em;
+animation-name: example;
+    animation-duration: 2s;
+}
+    @keyframes example {
+    from {font-size:2em;  color: black ;opacity:0; }
+    to {font-size:4em; color:white;opacity:0.7; }
+}
+.form{
+    text-align: center;
+    margin-top: 100px;
+background-color:#2E2B2B;
+opacity: 0.8;
+width: 35%;
+height:430px;
+text-align: center;
+margin-left: 33%;
+border: 2px solid #2E2B2e;
+animation-name: form;
+    animation-duration: 3s;
+}
+    @keyframes form {
+    from { opacity:0; }
+    to {opacity:0.8; }
+    }
+
+
+
+
+
+
+
+.Acc{
+font-size: 3em;
+color: #ffffff;
+padding-top:5%;
+background-color: #000000;
+
+
+
+
+}
+
+body{
+    background-image: url("images/a.jpg");
+    background-repeat: no-repeat;
+    
+    /*width: 100%;
+    height: auto;
+    background-size:100% 100%; 
+
+    */
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    margin-top: 30px;
+}
+span.key,span.user,span.email{
+    text-align: left;
+    color: black;
+    font-size: 2.5em;
+    /*margin-right:2px; */
+    float: left;
+    margin-left: 30px;
+width: 5px;
+}
+input{
+width: 300px;
+height: 40px; 
+padding-left: 10px;
+border-radius:10px; 
+
+}
+.prgrf{
+    margin-bottom:5%; 
+    font-size: 18px;
+
+    color: #C3C5CA;
+
+}
+.preg , .plog{
+    color: white;
+}
+#login{
+    text-align: right;
+ 
+    padding-right: 55px;
+    padding-top:3px; 
+}
+span.regis{
+    color: #1B62DB;
+}
+
+
+.regis:hover{
+    cursor: pointer;
+}
+#reg{
+    text-align: center;
+    color: #ffffff;
+}
